@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myAfrica1() {
+    document.getElementById("demo").innerHTML = "<b> Local:</b>1.2 <b> Call Back Home:</b>2.14 <b> ROW:</b>2.81 <b> Voice MT:</b>2.14 <b> SMS:</b>0.47 <b> Data:</b>2.39";
+    }
+    function myAfrica2() {
+    document.getElementById("demo").innerHTML = "<b> Local:</b>3.62 <b> Call Back Home:</b>8.23 <b> ROW:</b>14.45 <b> Voice MT:</b>2.14 <b> SMS:</b>1.66 <b> Data:</b>97.46";
+    }
+    function myEuropeUSA() {
+    document.getElementById("demo").innerHTML = "<b> Local:</b>2.39 <b> Call Back Home:</b>3.34 <b> ROW:</b>4.77 <b> Voice MT:</b>2.14 <b> SMS:</b>0.71 <b> Data:</b>4.77";
+    }
+    function myMiddleEastAsia() {
+    document.getElementById("demo").innerHTML = "<b> Local </b>";
+    }
+    function myRestAfrica() {
+    document.getElementById("demo").innerHTML = "<b> Local </b>";
+    }
+    function myRestEurope() {
+    document.getElementById("demo").innerHTML = "<b> Local </b>";
+    }
+    function myRestWorld() {
+    document.getElementById("demo").innerHTML = "<b> Local </b>";
+    }
+    
+</script>
+</head>
+<body>
+
+<p>Click the button to trigger a function.</p>
+
+<button onclick="myAfrica1()">Africa 1</button>
+<button onclick="myAfrica2()">Africa 2</button>
+<button onclick="myEuropeUSA()">Europe and USA</button>
+<button onclick="myMiddleEastAsia()">Middle Eats and Asia</button>
+<button onclick="myRestAfrica()">Rest of Africa</button>
+<button onclick="myRestEurope()">Rest of Europe</button>
+<button onclick="myRestWorld()">Rest of World</button>
+
+<p id="demo"></p>
+
+</body>
+</html>
+
