@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <script>
 function myAfrica1() {
-    document.getElementById("demo").innerHTML = "<b> Local:</b>1.2 <b> Call Back Home:</b>2.14 <b> ROW:</b>2.81 <b> Voice MT:</b>2.14 <b> SMS:</b>0.47 <b> Data:</b>2.39";
+    document.getElementById("demo").innerHTML = "<p><table><tbody><tr><td><b>Country</b></td><td><b>Network</b></td></tr><tr><td>Senegal</td><td>Tigo</td></tr><tr><td>Ivory Coast</td><td>MTN</td></tr><tr><td>Burkina Faso</td><td>Airtel</td></tr><tr><td>South Africa</td><td>MTN</td></tr><tr><td>Nigeria</td><td>MTN</td></tr></tbody></table><br><b> Local:</b>1.2 <b> Call Back Home:</b>2.14 <b> ROW:</b>2.81 <b> Voice MT:</b>2.14 <b> SMS:</b>0.47 <b> Data:</b>2.39";
     }
     function myAfrica2() {
-    document.getElementById("demo").innerHTML = "<b> Local:</b>3.62 <b> Call Back Home:</b>8.23 <b> ROW:</b>14.45 <b> Voice MT:</b>2.14 <b> SMS:</b>1.66 <b> Data:</b>97.46";
+    document.getElementById("demo").innerHTML = "<p><table><tbody><tr><td><b>Country</b></td><td><b>Network</b></td></tr><tr><td>Togo</td><td>Moov and Togocel</td><table><br><b> Local:</b>3.62 <b> Call Back Home:</b>8.23 <b> ROW:</b>14.45 <b> Voice MT:</b>2.14 <b> SMS:</b>1.66 <b> Data:</b>97.46";
     }
     function myEuropeUSA() {
-    document.getElementById("demo").innerHTML = "<b> Local:</b>2.39 <b> Call Back Home:</b>3.34 <b> ROW:</b>4.77 <b> Voice MT:</b>2.14 <b> SMS:</b>0.71 <b> Data:</b>4.77";
+    document.getElementById("demo").innerHTML = "<p><table><tbody><tr><td><b>Country</b></td><td><b>Network</b></td></tr><tr><td>France</td><td>SFR</td></tr><tr><td>UK</td><td>O2</td></tr><tr><td>USA</td><td>AT&amp;T</td></tr><tr><td>Germany</td><td>T-Mobile</td></tr><tr><td>Spain</td><td>O2</td><tr><td>Belgium</td><td>Proximus</td></tr><tr><td>Italy</td><td>Wind</td></tr><tr><td>Netherlands</td><td>KPN</td></tr></tr></tbody></table><br><b> Local:</b>2.39 <b> Call Back Home:</b>3.34 <b> ROW:</b>4.77 <b> Voice MT:</b>2.14 <b> SMS:</b>0.71 <b> Data:</b>4.77";
     }
     function myMiddleEastAsia() {
-    document.getElementById("demo").innerHTML = "<b> Local </b>";
+    document.getElementById("demo").innerHTML = "<b>Country</b><br>UAE<br>Turkey<br>Saudi Arabia<br>China<br></br><b> Local:</b>7.41 <b> Call Back Home:</b>16.49 <b> ROW:</b>51.41 <b> Voice MT:</b>2.14 <b> SMS:</b>3.64 <b> Data:</b>75.50";
     }
     function myRestAfrica() {
-    document.getElementById("demo").innerHTML = "<b> Local </b>";
+    document.getElementById("demo").innerHTML = "<b>Country</b><br>Algeria<br>Angola<br>Benin<br>Botswana<br>Burundi<br>Cameroon<br>Cape Verde<br>Central African Republic<br>Chad<br>Comoros<br>Congo<br>Congo, Democratic Republic of<br>Djibouti<br>Egypt<br>Equatorial Guinea<br>Eritrea<br>Ethiopia<br>Gabon<br>Gambia<br>Ghana<br>Guinea<br>Guinea-Bissau<br>Kenya<br>Lesotho<br>Liberia<br>Libya<br>Madagascar<br>MalawiMali<br>Mauritania<br>Mauritius<br>Morocco<br>Mozambique<br>Namibia<br>Niger<br>Rwanda<br>Sao Tome and Principe<br>Seychelles<br>Sierra Leone<br>Somalia<br>South Sudan<br>Sudan<br>Swaziland<br>Tanzania<br>Tunisia<br>Uganda<br>Zambia<br>Zimbabwe<br><br><b> Local:</b>7.41 <b> Call Back Home:</b>16.49 <b> ROW:</b>51.41 <b> Voice MT:</b>2.14 <b> SMS:</b>3.64 <b> Data:</b>75.50";
     }
     function myRestEurope() {
     document.getElementById("demo").innerHTML = "<b> Local </b>";
@@ -26,14 +27,12 @@ function myAfrica1() {
     
 </script>
 </head>
-<body>
-
-<p>Click the button to trigger a function.</p>
+<body><p>Click button to find IDD rates for various countries.</p>
 
 <button onclick="myAfrica1()">Africa 1</button>
 <button onclick="myAfrica2()">Africa 2</button>
 <button onclick="myEuropeUSA()">Europe and USA</button>
-<button onclick="myMiddleEastAsia()">Middle Eats and Asia</button>
+<button onclick="myMiddleEastAsia()">Middle East and Asia</button>
 <button onclick="myRestAfrica()">Rest of Africa</button>
 <button onclick="myRestEurope()">Rest of Europe</button>
 <button onclick="myRestWorld()">Rest of World</button>
@@ -42,4 +41,3 @@ function myAfrica1() {
 
 </body>
 </html>
-
